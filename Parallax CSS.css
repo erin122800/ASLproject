@@ -1,0 +1,52 @@
+/*Parallaxes 1-3 are for the homepage*/
+.parallax.p1 {
+    background: url(./assets/Deaf1.jpg) no-repeat fixed 50% 0;
+    background-size: cover;
+    height: 300px;
+    color: rgb(255,255,255);
+  }
+  .parallax.p2 {
+    background: url(./assets/Deaf5.jpg) no-repeat fixed 50% 0;
+    background-size: cover;
+    height: 300px;
+    color: rgb(255,255,255);
+  }
+  .parallax.p3 {
+    background: url(./assets/Deaf6.jpg) no-repeat fixed 70% 0;
+    background-size: cover;
+    height: 300px;
+    color: rgb(255,255,255);
+  }
+/*Parallaxes 4 is the opening parallax*/
+  .parallax.p4 {
+   background: url(./assets/Deaf3.jpg) no-repeat fixed 70% 0;
+    background-size: cover;
+    height: 300px;
+    color: rgb(255,255,255);
+  }
+/*Parallaxes 5-7 are for the events*/
+  .parallax.p5 {
+    background: url(./assets/badenergy.jpg) no-repeat fixed 70% 0;
+     background-size: cover;
+     height: 300px;
+     color: rgb(255,255,255);
+   }
+   .parallax.p6 {
+    background: url(./assets/badenergy.jpg) no-repeat fixed 70% 0;
+     background-size: cover;
+     height: 300px;
+     color: rgb(255,255,255);
+   }
+   .parallax.p7 {
+    background: url(./assets/badenergy.jpg) no-repeat fixed 70% 0;
+     background-size: cover;
+     height: 300px;
+     color: rgb(255,255,255);
+   }
+/*About Us Parallax*/
+   .parallax.p8 {
+    background: url(./assets/signing.jpg) no-repeat fixed 70% 0;
+     background-size: cover;
+     height: 300px;
+     color: rgb(255,255,255);
+   }

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Here is referencing the Discussion CSS to get the stuff for the header, navbar, and footer-->
+    <link rel="stylesheet" href="Events CSS.css">
+    <!--Here is referencing the Parallax CSS to get the stuff for parallaxes-->
+    <link rel="stylesheet" href="Parallax CSS.css">
+    <!--References the javascript for Parallaxes-->
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="Parallax JS.js"></script>
+</head>
+<!--HTML for Header-->
+
+<body>
+    <div class="topofpage">
+        <header class="page-header">
+            <!--Make a new logo-->
+            <h1><img src="./assets/logo.png" class="ANZEN"> <br>P&E </h1>
+        </header>
+        <div class="navbar">
+            <ul class="navbar-container">
+                <li class="nav-item"><a href="Homepage.html" class="left-underline nav-button" data-scroll>Home</a></li>
+                <li class="nav-item"><a href="Homepage.html#littledeaf" class="left-underline nav-button"
+                        data-scroll>deaf</a></li>
+                <li class="nav-item"><a href="Homepage.html#bigDeaf" class="left-underline nav-button"
+                        data-scroll>Deaf</a></li>
+                <li class="nav-item"><a href="Events.html" target="_self" class="left-underline nav-button"
+                        data-scroll>Events</a></li>
+                <li class="nav-item"><a href="Contact Us.html" target="_self" class="left-underline nav-button"
+                        data-scroll>Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--End HTML for Header-->
+
+    <!--Stuff to add in-->
+
+    <!--Blurb for About Us-->
+    <br>
+    <h2>About Us</h2>
+    <br>
+    <h3 id="blurb">Blurb.</h3>
+    <br>
+
+    <!--Parallax-->
+    <div class="parallax p8" id="section-1"></div>
+
+    <!--Give the ability to request new events to be added-->
+    <h2>Event Suggestions</h2>
+
+    <div id="comments"></div>
+    <hr />
+
+    <form id="addcomment" action="#">
+        <h3>Know of any nearby events? Let us know!</h3>
+        <label>Event: <br><input type="text" id="event" /></label><br>
+        <label>Description: <br><textarea id="description" rows="10" cols="50"></textarea></label><br>
+        <input type="submit" id="post" value="Post" />
+
+    </form>
+    <script type="text/javascript" src="Anzen Discussion JS.js" defer></script>
+
+
+    <!--Social Media-->
+    <h2>Follow us on Social Media!</h2>
+
+    <!--Insert social media links-->
+    <a href="https://www.instagram.com/anzen_corp/">
+        <img id="instagram" src="./assets/instagram.png">
+    </a>
+    <a
+        href="https://www.facebook.com/anzen.corp.5?__tn__=%2Cd*F*F-R&eid=ARCVe0aatMXtJlvnLrrz9TJ9w4Y1Cy2XptMaaCDLfZZ9Nzy1onipjJme7KrcUK6jQAxYfO0QptlQ5NNi&tn-str=*F">
+        <img id="facebook" src="./assets/facebook.png">
+    </a>
+    <a href="https://twitter.com/?lang=en">
+        <img id="twitter" src="./assets/twitter.png">
+    </a>
+    <br>
+    <hr />
+
+    <!--Footer HTML stuff-->
+    <footer>
+        <div class="row" id="section-4">
+            <div class="col-3" id="other-foot-stuff">
+                <p>P&E <br>Email: erinlaxton122800@gmail.com
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2019 P&E Cooperative, All rights reserved.
+            </div>
+    </footer>
+    <a id="arrow" href="#">
+        <img src="./assets/arrow.png" height="20" width="20">
+    </a>
+</body>
+
+</html>
