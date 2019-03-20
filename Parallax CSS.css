@@ -26,7 +26,7 @@
   }
 /*Parallaxes 5-7 are for the events*/
   .parallax.p5 {
-    background: url(./assets/badenergy.jpg) no-repeat fixed 70% 0;
+    background: url(./assets/Event1.jpg) no-repeat fixed 70% 0;
      background-size: cover;
      height: 300px;
      color: rgb(255,255,255);
