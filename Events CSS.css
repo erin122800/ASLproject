@@ -96,10 +96,10 @@ h2{
 .subcat{
     text-align: center;
     font-size: 16pt;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 80px;
+    margin-left: 80px;
     background-color: rgba(245, 245, 245, 0.575);
-    padding: 50px;
+    padding: 20px;
     border-radius: 10px;
 }
 /*Information columns*/
