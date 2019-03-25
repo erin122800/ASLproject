@@ -104,6 +104,15 @@ h3{
     padding: 20px;
     border-radius: 10px;
 }
+.blurb{
+    text-align: center;
+    font-size: 16pt;
+    margin-right: 125px;
+    margin-left: 125px;
+    background-color: rgba(245, 245, 245, 0.575);
+    padding: 10px;
+    border-radius: 10px;
+}
 #instagram{
     width: 70px;
     height: 70px;
