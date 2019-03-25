@@ -96,8 +96,8 @@ h2{
 .subcat{
     text-align: center;
     font-size: 16pt;
-    margin-right: 80px;
-    margin-left: 80px;
+    margin-right: 100px;
+    margin-left: 1000px;
     background-color: rgba(245, 245, 245, 0.575);
     padding: 10px;
     border-radius: 10px;
